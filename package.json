@@ -1,0 +1,30 @@
+{
+  "name": "summit-atlas",
+  "version": "1.0.0",
+  "description": "Summit Atlas is a static-first ski globe that maps resorts around the world and opens detail pages with snow context and curated photo-source links.",
+  "main": "script.js",
+  "scripts": {
+    "test": "node .\\node_modules\\playwright\\cli.js test",
+    "test:e2e": "node .\\node_modules\\playwright\\cli.js test",
+    "snow:build": "node .\\scripts\\generate-snow-data.cjs",
+    "snow:update": "node .\\scripts\\update-snow-data.cjs",
+    "snow:history": "node .\\scripts\\update-historical-months.cjs",
+    "snow:history:review": "node .\\scripts\\review-historical-months.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProtonPilot/summit-atlas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ProtonPilot/summit-atlas/issues"
+  },
+  "homepage": "https://github.com/ProtonPilot/summit-atlas#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "playwright": "^1.59.1"
+  }
+}

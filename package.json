@@ -1,30 +1,50 @@
 {
   "name": "summit-atlas",
   "version": "1.0.0",
-  "description": "Summit Atlas is a static-first ski globe that maps resorts around the world and opens detail pages with snow context and curated photo-source links.",
-  "main": "script.js",
+  "private": true,
+  "description": "Interactive global ski resort atlas, trip planner, and gear shop.",
+  "engines": {
+    "node": ">=22.13.0"
+  },
   "scripts": {
-    "test": "node .\\node_modules\\playwright\\cli.js test",
-    "test:e2e": "node .\\node_modules\\playwright\\cli.js test",
-    "snow:build": "node .\\scripts\\generate-snow-data.cjs",
-    "snow:update": "node .\\scripts\\update-snow-data.cjs",
-    "snow:history": "node .\\scripts\\update-historical-months.cjs",
-    "snow:history:review": "node .\\scripts\\review-historical-months.cjs"
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start",
+    "test": "playwright test --config=playwright.config.cjs",
+    "test:e2e": "playwright test --config=playwright.config.cjs",
+    "snow:build": "node ./scripts/generate-snow-data.cjs",
+    "snow:update": "node ./scripts/update-snow-data.cjs",
+    "snow:history": "node ./scripts/update-historical-months.cjs",
+    "snow:history:review": "node ./scripts/review-historical-months.cjs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ProtonPilot/summit-atlas.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ProtonPilot/summit-atlas/issues"
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
   },
-  "homepage": "https://github.com/ProtonPilot/summit-atlas#readme",
   "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
     "@playwright/test": "^1.59.1",
-    "playwright": "^1.59.1"
-  }
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "playwright": "^1.59.1",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module"
 }

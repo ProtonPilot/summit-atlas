@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summit Atlas</title>
+  <meta
+    name="description"
+    content="Explore ski areas and resorts worldwide on an interactive globe with snow snapshots and mountain detail pages."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Syne:wght@500;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="app-shell">
+  <div class="atmosphere atmosphere-a"></div>
+  <div class="atmosphere atmosphere-b"></div>
+  <div class="starfield"></div>
+
+  <header class="topbar">
+    <a class="brand" href="./index.html">
+      <span class="brand-mark"></span>
+      <span>
+        <strong>Summit Atlas</strong>
+        <small>Global Ski Globe</small>
+      </span>
+    </a>
+
+    <div class="topbar-copy">
+      <h1>Endless Winter - Endless Fun</h1>
+      <p class="lede">
+        Spin the planet, tap a resort, and open a dedicated detail page for snow
+        stats, mountain character, and curated recent-photo sources.
+      </p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel panel-search" aria-label="Resort explorer">
+      <div class="panel-section">
+        <h2>Find a mountain fast</h2>
+        <div class="pass-filter-block">
+          <p class="search-label">Filter by ski pass</p>
+          <div id="pass-filter" class="pass-filter" aria-label="Filter resorts by ski pass">
+            <button type="button" class="pass-filter-chip is-active" data-pass-filter="all" aria-pressed="true">
+              <span>All</span>
+              <strong data-pass-count="all">0</strong>
+            </button>
+            <button type="button" class="pass-filter-chip" data-pass-filter="ikon" aria-pressed="false">
+              <span>Ikon</span>
+              <strong data-pass-count="ikon">0</strong>
+            </button>
+            <button type="button" class="pass-filter-chip" data-pass-filter="epic" aria-pressed="false">
+              <span>Epic</span>
+              <strong data-pass-count="epic">0</strong>
+            </button>
+            <button type="button" class="pass-filter-chip" data-pass-filter="independent" aria-pressed="false">
+              <span>Independent</span>
+              <strong data-pass-count="independent">0</strong>
+            </button>
+          </div>
+        </div>
+        <label class="search-field" for="resort-search">
+          <span class="search-label">Search resorts or regions</span>
+          <input
+            id="resort-search"
+            type="search"
+            placeholder="Try Niseko, Banff, Andes, Alps..."
+            autocomplete="off"
+          >
+        </label>
+        <div id="search-results" class="search-results" aria-live="polite"></div>
+      </div>
+
+      <div class="panel-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Highlights</p>
+            <h2>Snow-rich picks</h2>
+          </div>
+          <span class="section-note">Static sample data</span>
+        </div>
+        <div id="featured-list" class="featured-list"></div>
+      </div>
+    </section>
+
+    <section class="panel panel-globe" aria-label="Interactive globe">
+      <div class="zoom-slider-wrap" aria-label="Globe zoom control">
+        <label class="zoom-slider-label" for="zoom-slider">Zoom</label>
+        <input id="zoom-slider" class="zoom-slider" type="range" min="130" max="500" step="1" value="280">
+      </div>
+
+      <div class="globe-meta">
+        <div class="globe-meta-main">
+          <div id="summary-chips" class="summary-chips"></div>
+          <div id="pass-legend" class="pass-legend" aria-label="Ski pass color legend"></div>
+        </div>
+        <button id="rotation-toggle" class="rotation-toggle" type="button" aria-pressed="false">
+          Start rotation
+        </button>
+        <p class="disclaimer">
+          Current snow values are sample-friendly placeholders in v1. Historical snow-month trends are curated and designed for a future live-data upgrade.
+        </p>
+      </div>
+
+      <div class="globe-frame">
+        <div id="globe"></div>
+      </div>
+
+      <aside id="popup-card" class="popup-card is-hidden" aria-live="polite">
+        <button id="popup-close" class="popup-close" type="button" aria-label="Close resort details">
+          Close
+        </button>
+        <div id="popup-content"></div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/three@0.152.2/build/three.min.js"></script>
+  <script src="https://unpkg.com/globe.gl@2.32.1/dist/globe.gl.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

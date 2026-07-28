@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "vinext dev",
+    "prebuild": "node ./scripts/sync-hosted-static.cjs",
     "build": "vinext build",
     "start": "vinext start",
     "test": "playwright test --config=playwright.config.cjs",

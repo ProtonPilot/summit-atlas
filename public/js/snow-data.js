@@ -2,7 +2,7 @@
 // It is safe to commit because the app is static-hosted.
 
 export const snowSnapshotMeta = {
-  "generatedAt": "2026-04-06",
+  "generatedAt": "2026-07-28",
   "provider": "Open-Meteo Forecast API (coordinate-based snow depth)",
   "historicalMethod": "Open-Meteo Historical Weather API monthly snowfall averages at resort summit elevation",
   "historyWindow": "2016-2025 calendar-month snowfall averages"
@@ -11,18 +11,18 @@ export const snowSnapshotMeta = {
 export const snowSnapshot = {
   "whistler-blackcomb": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 139,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
   },
   "jackson-hole": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 84,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -31,7 +31,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -40,70 +40,70 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
   },
   "sunshine-village": {
-    "currentDepthBase": 5,
-    "currentDepthSummit": 88,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
   },
   "chamonix": {
-    "currentDepthBase": 10,
-    "currentDepthSummit": 10,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
   },
   "val-disere": {
-    "currentDepthBase": 121,
-    "currentDepthSummit": 141,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "April"
   },
   "verbier": {
-    "currentDepthBase": 42,
-    "currentDepthSummit": 117,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "April"
   },
   "zermatt": {
-    "currentDepthBase": 153,
-    "currentDepthSummit": 153,
+    "currentDepthBase": 59,
+    "currentDepthSummit": 59,
     "highestHistoricalMonth": "November",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "November",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "April"
   },
   "st-anton": {
-    "currentDepthBase": 19,
-    "currentDepthSummit": 134,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "May"
   },
   "laax": {
-    "currentDepthBase": 109,
-    "currentDepthSummit": 150,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
@@ -112,16 +112,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
   },
   "hakuba-valley": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 7,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -130,7 +130,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -139,97 +139,97 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "March"
   },
   "shymbulak": {
-    "currentDepthBase": 8,
-    "currentDepthSummit": 8,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "April",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "April",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "March"
   },
   "valle-nevado": {
-    "currentDepthBase": 0,
-    "currentDepthSummit": 0,
+    "currentDepthBase": 150,
+    "currentDepthSummit": 223,
     "highestHistoricalMonth": "June",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "June",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "August"
   },
   "portillo": {
-    "currentDepthBase": 0,
-    "currentDepthSummit": 0,
+    "currentDepthBase": 196,
+    "currentDepthSummit": 215,
     "highestHistoricalMonth": "June",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "June",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "August"
   },
   "catedral-alta-patagonia": {
-    "currentDepthBase": 0,
-    "currentDepthSummit": 0,
+    "currentDepthBase": 56,
+    "currentDepthSummit": 102,
     "highestHistoricalMonth": "July",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "July",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "September"
   },
   "las-lenas": {
-    "currentDepthBase": 0,
-    "currentDepthSummit": 0,
+    "currentDepthBase": 216,
+    "currentDepthSummit": 216,
     "highestHistoricalMonth": "June",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "June",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "May"
   },
   "thredbo": {
-    "currentDepthBase": 0,
-    "currentDepthSummit": 0,
+    "currentDepthBase": 8,
+    "currentDepthSummit": 8,
     "highestHistoricalMonth": "July",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "July",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "July"
   },
   "coronet-peak": {
-    "currentDepthBase": 0,
-    "currentDepthSummit": 0,
+    "currentDepthBase": 4,
+    "currentDepthSummit": 11,
     "highestHistoricalMonth": "September",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "September",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "September"
   },
   "cardrona": {
-    "currentDepthBase": 0,
-    "currentDepthSummit": 0,
+    "currentDepthBase": 11,
+    "currentDepthSummit": 11,
     "highestHistoricalMonth": "September",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "September",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "September"
   },
   "afriski": {
-    "currentDepthBase": 0,
-    "currentDepthSummit": 0,
+    "currentDepthBase": 1,
+    "currentDepthSummit": 1,
     "highestHistoricalMonth": "August",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "August",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "April"
   },
   "oukaimeden": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 1,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -238,7 +238,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -249,7 +249,7 @@ export const snowSnapshot = {
     "highestHistoricalMonth": "March",
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "March"
   },
   "vail": {
@@ -257,8 +257,8 @@ export const snowSnapshot = {
     "manualHighestHistoricalMonth": null,
     "highestHistoricalMonth": "March",
     "currentDepthBase": 0,
-    "currentDepthSummit": 2,
-    "lastUpdated": "2026-04-06",
+    "currentDepthSummit": 0,
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "March"
   },
   "breckenridge": {
@@ -267,7 +267,7 @@ export const snowSnapshot = {
     "highestHistoricalMonth": "April",
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "April"
   },
   "snowbird": {
@@ -275,8 +275,8 @@ export const snowSnapshot = {
     "manualHighestHistoricalMonth": null,
     "highestHistoricalMonth": "January",
     "currentDepthBase": 0,
-    "currentDepthSummit": 3,
-    "lastUpdated": "2026-04-06",
+    "currentDepthSummit": 0,
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "February"
   },
   "alta": {
@@ -284,8 +284,8 @@ export const snowSnapshot = {
     "manualHighestHistoricalMonth": null,
     "highestHistoricalMonth": "January",
     "currentDepthBase": 0,
-    "currentDepthSummit": 3,
-    "lastUpdated": "2026-04-06",
+    "currentDepthSummit": 0,
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "February"
   },
   "deer-valley": {
@@ -294,7 +294,7 @@ export const snowSnapshot = {
     "highestHistoricalMonth": "March",
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "February"
   },
   "big-sky": {
@@ -303,16 +303,16 @@ export const snowSnapshot = {
     "highestHistoricalMonth": "April",
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "December"
   },
   "courchevel": {
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "highestHistoricalMonth": "December",
-    "currentDepthBase": 25,
-    "currentDepthSummit": 116,
-    "lastUpdated": "2026-04-06",
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "January"
   },
   "les-deux-alpes": {
@@ -321,16 +321,16 @@ export const snowSnapshot = {
     "highestHistoricalMonth": "December",
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "January"
   },
   "st-moritz": {
     "computedHighestHistoricalMonth": "November",
     "manualHighestHistoricalMonth": null,
     "highestHistoricalMonth": "November",
-    "currentDepthBase": 42,
-    "currentDepthSummit": 117,
-    "lastUpdated": "2026-04-06",
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "January"
   },
   "kitzbuehel": {
@@ -338,8 +338,8 @@ export const snowSnapshot = {
     "manualHighestHistoricalMonth": null,
     "highestHistoricalMonth": "January",
     "currentDepthBase": 0,
-    "currentDepthSummit": 1,
-    "lastUpdated": "2026-04-06",
+    "currentDepthSummit": 0,
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "March"
   },
   "cortina-dampezzo": {
@@ -347,8 +347,8 @@ export const snowSnapshot = {
     "manualHighestHistoricalMonth": null,
     "highestHistoricalMonth": "November",
     "currentDepthBase": 0,
-    "currentDepthSummit": 13,
-    "lastUpdated": "2026-04-06",
+    "currentDepthSummit": 0,
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "March"
   },
   "grandvalira": {
@@ -357,16 +357,16 @@ export const snowSnapshot = {
     "highestHistoricalMonth": "March",
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "March"
   },
   "lech-zuers": {
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "highestHistoricalMonth": "January",
-    "currentDepthBase": 28,
-    "currentDepthSummit": 131,
-    "lastUpdated": "2026-04-06",
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "January"
   },
   "shiga-kogen": {
@@ -375,7 +375,7 @@ export const snowSnapshot = {
     "highestHistoricalMonth": "January",
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "December"
   },
   "nozawa-onsen": {
@@ -384,7 +384,7 @@ export const snowSnapshot = {
     "highestHistoricalMonth": "January",
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "December"
   },
   "furano": {
@@ -393,7 +393,7 @@ export const snowSnapshot = {
     "highestHistoricalMonth": "December",
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "December"
   },
   "appi-kogen": {
@@ -402,14 +402,14 @@ export const snowSnapshot = {
     "highestHistoricalMonth": "December",
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "previousYearSnowiestMonth": "December"
   },
   "beaver-creek": {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -418,16 +418,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "April",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "April",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
   },
   "crested-butte": {
-    "currentDepthBase": 4,
+    "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "March"
@@ -436,7 +436,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -445,7 +445,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "April",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "April",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -454,7 +454,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "April",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "April",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -463,7 +463,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "April",
     "manualHighestHistoricalMonth": "February",
     "previousYearSnowiestMonth": "February"
@@ -472,7 +472,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -481,16 +481,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
   },
   "palisades-tahoe": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 15,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -499,7 +499,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -508,7 +508,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -517,16 +517,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
   },
   "alyeska": {
-    "currentDepthBase": 168,
-    "currentDepthSummit": 168,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 16,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
@@ -535,7 +535,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -544,21 +544,21 @@ export const snowSnapshot = {
     "currentDepthBase": 183,
     "currentDepthSummit": null,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
-    "computedCurrentDepthBase": 220,
-    "computedCurrentDepthSummit": 220,
+    "computedCurrentDepthBase": 0,
+    "computedCurrentDepthSummit": 0,
     "manualCurrentDepthBase": 183,
     "manualCurrentDepthSummit": null,
     "currentSnowSource": "Stevens Pass official snow report (72 in base depth, April 4, 2026)",
     "previousYearSnowiestMonth": "December"
   },
   "lake-louise": {
-    "currentDepthBase": 6,
-    "currentDepthSummit": 6,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "November",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "November",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -567,25 +567,25 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
   },
   "tremblant": {
-    "currentDepthBase": 13,
-    "currentDepthSummit": 32,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
   },
   "stowe": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 1,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -594,7 +594,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -603,7 +603,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -612,7 +612,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -621,7 +621,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "March"
@@ -630,7 +630,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -639,7 +639,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "March"
@@ -648,16 +648,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
   },
   "schweitzer": {
-    "currentDepthBase": 14,
-    "currentDepthSummit": 14,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -666,7 +666,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "May"
@@ -675,7 +675,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -684,7 +684,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "May"
@@ -693,7 +693,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -702,7 +702,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -711,7 +711,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -720,7 +720,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -729,16 +729,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
   },
   "sugarloaf": {
-    "currentDepthBase": 2,
-    "currentDepthSummit": 2,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -747,7 +747,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
@@ -756,7 +756,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -765,7 +765,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -774,7 +774,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "March"
@@ -783,16 +783,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
   },
   "panorama": {
-    "currentDepthBase": 7,
-    "currentDepthSummit": 71,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -801,16 +801,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
   },
   "le-massif": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 80,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -819,7 +819,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
@@ -828,7 +828,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -837,7 +837,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -846,7 +846,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -855,7 +855,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
@@ -864,7 +864,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
@@ -873,7 +873,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
@@ -882,7 +882,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
@@ -891,7 +891,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -900,7 +900,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -909,7 +909,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "November"
@@ -918,7 +918,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
@@ -927,16 +927,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
   },
   "kicking-horse": {
-    "currentDepthBase": 3,
-    "currentDepthSummit": 3,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "November",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "November",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -945,34 +945,34 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
   },
   "nakiska": {
-    "currentDepthBase": 5,
-    "currentDepthSummit": 8,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "April",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "April",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "March"
   },
   "mont-sainte-anne": {
-    "currentDepthBase": 53,
-    "currentDepthSummit": 43,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
   },
   "stoneham": {
-    "currentDepthBase": 72,
-    "currentDepthSummit": 72,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -981,7 +981,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "December"
@@ -990,7 +990,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
@@ -999,7 +999,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
@@ -1008,7 +1008,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "February"
@@ -1017,25 +1017,25 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": null,
     "previousYearSnowiestMonth": "January"
   },
   "jay-peak": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 1,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "November",
     "manualHighestHistoricalMonth": null
   },
   "whiteface": {
-    "currentDepthBase": 9,
-    "currentDepthSummit": 17,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "February",
     "manualHighestHistoricalMonth": null
@@ -1044,16 +1044,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "February",
     "manualHighestHistoricalMonth": null
   },
   "mount-bohemia": {
-    "currentDepthBase": 39,
-    "currentDepthSummit": 71,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "previousYearSnowiestMonth": "December",
     "manualHighestHistoricalMonth": null
@@ -1062,7 +1062,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "February"
@@ -1071,25 +1071,25 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "April",
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "April"
   },
   "sugar-bowl": {
-    "currentDepthBase": 3,
-    "currentDepthSummit": 5,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "manualHighestHistoricalMonth": "March",
     "previousYearSnowiestMonth": "February"
   },
   "saddleback": {
-    "currentDepthBase": 3,
-    "currentDepthSummit": 3,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "February"
@@ -1098,7 +1098,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "December"
@@ -1107,7 +1107,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "December"
@@ -1116,7 +1116,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "December"
@@ -1125,7 +1125,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "December"
@@ -1134,7 +1134,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "December"
@@ -1143,7 +1143,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "April",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "April",
     "previousYearSnowiestMonth": "February",
     "manualHighestHistoricalMonth": null
@@ -1152,7 +1152,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "previousYearSnowiestMonth": "May",
     "manualHighestHistoricalMonth": null
@@ -1161,16 +1161,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "previousYearSnowiestMonth": "May",
     "manualHighestHistoricalMonth": null
   },
   "big-white": {
-    "currentDepthBase": 96,
-    "currentDepthSummit": 96,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "previousYearSnowiestMonth": "December",
     "manualHighestHistoricalMonth": null
@@ -1179,25 +1179,25 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "previousYearSnowiestMonth": "December",
     "manualHighestHistoricalMonth": null
   },
   "marmot-basin": {
-    "currentDepthBase": 29,
-    "currentDepthSummit": 29,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "November",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "November",
     "previousYearSnowiestMonth": "December",
     "manualHighestHistoricalMonth": null
   },
   "grand-targhee": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 122,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "previousYearSnowiestMonth": "February",
     "manualHighestHistoricalMonth": null
@@ -1206,7 +1206,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "previousYearSnowiestMonth": "March",
     "manualHighestHistoricalMonth": null
@@ -1215,7 +1215,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "March",
     "previousYearSnowiestMonth": "March",
     "manualHighestHistoricalMonth": null
@@ -1224,52 +1224,52 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "previousYearSnowiestMonth": "March",
     "manualHighestHistoricalMonth": null
   },
   "timberline": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 853,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "February",
     "previousYearSnowiestMonth": "March",
     "manualHighestHistoricalMonth": null
   },
   "sierra-at-tahoe": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 1,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": "February",
     "manualHighestHistoricalMonth": null
   },
   "boyne-mountain": {
-    "currentDepthBase": 1,
-    "currentDepthSummit": 1,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "previousYearSnowiestMonth": "January",
     "manualHighestHistoricalMonth": null
   },
   "boyne-highlands": {
-    "currentDepthBase": 8,
-    "currentDepthSummit": 8,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "previousYearSnowiestMonth": "December",
     "manualHighestHistoricalMonth": "January"
   },
   "mount-norquay": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 3,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "December",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": "December",
     "previousYearSnowiestMonth": "December",
     "manualHighestHistoricalMonth": null
@@ -1278,7 +1278,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1287,16 +1287,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
   },
   "smugglers-notch": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 2,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1305,7 +1305,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1314,7 +1314,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1323,16 +1323,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
   },
   "nubs-nob": {
-    "currentDepthBase": 9,
-    "currentDepthSummit": 9,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1341,16 +1341,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
   },
   "lutsen-mountains": {
-    "currentDepthBase": 5,
-    "currentDepthSummit": 5,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1359,7 +1359,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1368,7 +1368,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1377,7 +1377,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1386,7 +1386,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1395,7 +1395,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1404,7 +1404,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1413,7 +1413,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1422,7 +1422,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1431,16 +1431,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
   },
   "white-pass": {
-    "currentDepthBase": 25,
-    "currentDepthSummit": 136,
+    "currentDepthBase": 0,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1449,7 +1449,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1458,7 +1458,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1467,16 +1467,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
   },
   "brundage": {
-    "currentDepthBase": 4,
+    "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1485,7 +1485,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1494,7 +1494,7 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "January",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "January",
     "previousYearSnowiestMonth": null
@@ -1503,16 +1503,16 @@ export const snowSnapshot = {
     "currentDepthBase": 0,
     "currentDepthSummit": 0,
     "highestHistoricalMonth": "February",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "February",
     "previousYearSnowiestMonth": null
   },
   "june-mountain": {
     "currentDepthBase": 0,
-    "currentDepthSummit": 3,
+    "currentDepthSummit": 0,
     "highestHistoricalMonth": "March",
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-07-28",
     "computedHighestHistoricalMonth": null,
     "manualHighestHistoricalMonth": "March",
     "previousYearSnowiestMonth": null

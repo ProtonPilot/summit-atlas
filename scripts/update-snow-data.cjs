@@ -130,6 +130,14 @@ function applyCurrentSnowOverrides(records) {
 }
 
 async function main() {
+  const today = new Date().toISOString().slice(0, 10);
+  const forceRefresh = process.argv.includes("--force");
+
+  if (!forceRefresh && template.generatedAt === today) {
+    console.log(`Snow data is already current for ${today}; skipping API requests.`);
+    return;
+  }
+
   const locations = buildLocations();
   const forecasts = await fetchForecasts(locations);
 
@@ -139,7 +147,7 @@ async function main() {
 
   const nextPayload = {
     ...template,
-    generatedAt: new Date().toISOString().slice(0, 10),
+    generatedAt: today,
     provider: "Open-Meteo Forecast API (coordinate-based snow depth)",
     resorts: applyCurrentSnowOverrides(mergeSnowSnapshot(locations, forecasts))
   };

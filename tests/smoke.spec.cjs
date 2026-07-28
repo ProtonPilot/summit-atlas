@@ -7,7 +7,8 @@ test("homepage loads, resort selection works, and detail page opens", async ({ p
   await expect(page.getByRole("heading", { name: /endless winter - endless fun/i })).toBeVisible();
   await expect(page.locator("#globe canvas")).toBeVisible();
 
-  await page.locator("#featured-list").getByRole("button", { name: /whistler blackcomb/i }).click();
+  await page.locator("#resort-search").fill("Whistler");
+  await page.locator("#search-results").getByRole("button", { name: /whistler blackcomb/i }).click();
   await expect(page.locator("#popup-card")).not.toHaveClass(/is-hidden/);
   await expect(page.locator("#popup-content")).toContainText("Whistler Blackcomb");
   await expect(page.locator("#popup-content")).toContainText("Snowiest month");
